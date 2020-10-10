@@ -1,0 +1,67 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template block_thumblinks_action/thumblinks_actions
+
+    This template renders the main content area for the mcms block.
+
+    Example context (json):
+    {
+    'articles' => ,
+    'count' => 1
+    }
+}}
+
+<div id="block-vetagro-news-{{uniqid}}" class="block-vetagro-news block-cards">
+    <div class="container-fluid">
+        <div class="glide d-none">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    {{#articles}}
+                        <li class="glide__slide">
+                            <a href="{{ linkurl }}" class="d-block position-relative">
+                                <img class="img-fluid w-100" src="{{ imageurl }}"/>
+                                <div class="slide-content position-absolute fixed-bottom">
+                                    <div class="categories font-italic d-none d-md-inline-block">
+                                        {{#categories}}
+                                            <span class="btn btn-primary">{{ text }}</span>
+                                        {{/categories}}
+                                    </div>
+                                    <div class="text-white text-truncate  d-none d-md-inline-block">{{ date }}</div>
+                                    <div class="font-weight-bolder text-white text-truncate  d-none d-md-inline-block">{{ title }}</div>
+                                </div>
+                            </a>
+                        </li>
+                    {{/articles}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{#js}}
+    require(['block_vetagro_news/glide'],function(glide) {
+    glide('#block-vetagro-news-{{uniqid}} .glide', {
+    type: 'slider',
+    startAt: 0,
+    perView: 3,
+    gap: 20,
+    autoplay: 2000
+    }
+    );
+    });
+{{/js}}

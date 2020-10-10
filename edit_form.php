@@ -41,10 +41,46 @@ class block_vetagro_news_edit_form extends block_edit_form {
         // Section header title according to language file.
         $mform->addElement('header', 'configheader', get_string('blocksettings', 'block'));
 
-        // A sample string variable with a default value.
-        $mform->addElement('text', 'config_text', get_string('blockstring', 'block_vetagro_news'));
-        $mform->setDefault('config_text', 'default value');
-        $mform->setType('config_text', PARAM_MULTILANG);
+        // Title of the block.
+        $mform->addElement('text', 'config_title', get_string('config:title', 'block_vetagro_news'));
+        $mform->setDefault('config_title', get_string('title', 'block_vetagro_news'));
+        $mform->setType('config_title', PARAM_TEXT);
+
+        // Site URL.
+        $mform->addElement('url', 'config_pageurl', get_string('config:pageurl', 'block_vetagro_news'));
+        $mform->setDefault('config_pageurl', 'default value');
+        $mform->setType('config_pageurl', PARAM_URL);
+
+        $mform->addElement('text', 'config_itemxpath', get_string('config:itemxpath', 'block_vetagro_news'));
+        $mform->setDefault('config_itemxpath',
+            "//div[contains(@class, 'xt-blog-post-slider')]//".
+            "div[contains(concat(' ', normalize-space(@class),' '), ' xt-post-item ')]");
+        $mform->setType('config_itemxpath', PARAM_RAW);
+
+        $mform->addElement('text', 'config_linkxpath', get_string('config:linkxpath', 'block_vetagro_news'));
+        $mform->setDefault('config_linkxpath', '//figure/a/@href');
+        $mform->setType('config_linkxpath', PARAM_RAW);
+
+        $mform->addElement('text', 'config_imagexpath', get_string('config:imagexpath', 'block_vetagro_news'));
+        $mform->setDefault('config_imagexpath', '//figure/a/img/@src');
+        $mform->setType('config_imagexpath', PARAM_RAW);
+
+
+        $mform->addElement('text', 'config_datexpath', get_string('config:datexpath', 'block_vetagro_news'));
+        $mform->setDefault('config_datexpath', "//div[contains(@class, 'xt-post-item-date')]");
+        $mform->setType('config_datexpath', PARAM_RAW);
+
+        $mform->addElement('text', 'config_categoriesxpath', get_string('config:categoryxpath', 'block_vetagro_news'));
+        $mform->setDefault('config_categoriesxpath', "//div[contains(@class, 'xt-post-item-categories')]/a");
+        $mform->setType('config_categoriesxpath', PARAM_RAW);
+
+        $mform->addElement('text', 'config_titlexpath', get_string('config:titlexpath', 'block_vetagro_news'));
+        $mform->setDefault('config_titlexpath', "//h4[contains(@class, 'xt-post-item-title')]/a");
+        $mform->setType('config_titlexpath', PARAM_RAW);
+
+        //div[contains(@class, 'xt-post-item-categories')]
+        //div[contains(@class, 'xt-post-item-date')]
+        //h4[contains(@class, 'xt-post-item-title')]
 
     }
 }

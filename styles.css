@@ -1,0 +1,12 @@
+.block_vetagro_news .slide-content {
+    padding: 80px 30px 25px;
+    z-index: 1;
+    width: 100%;
+    background-image: -o-linear-gradient(top, transparent 0%, #323031 100%);
+    background-image: -webkit-linear-gradient(top, transparent 0%, #323031 100%);
+    background-image: linear-gradient(to bottom, transparent 0%, #323031 100%);
+    background-repeat: repeat-x;
+}
+.block_vetagro_news .categories {
+    font-size: x-small;
+}

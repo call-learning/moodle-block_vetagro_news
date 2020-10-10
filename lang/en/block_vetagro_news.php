@@ -22,11 +22,17 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['blockstring'] = 'Block string';
-$string['descconfig'] = 'Description of the config section';
-$string['descfoo'] = 'Config description';
-$string['headerconfig'] = 'Config section header';
-$string['labelfoo'] = 'Config label';
 $string['vetagro_news:addinstance'] = 'Add a vetagro_news block';
 $string['vetagro_news:myaddinstance'] = 'Add a vetagro_news block to my moodle';
-$string['pluginname'] = 'VetagroNews';
+$string['pluginname'] = 'Vetagro News';
+$string['title'] = 'Vetagro News';
+
+$string['config:title'] = 'Title';
+$string['config:pageurl'] = 'News page url (remote site)';
+$string['config:itemxpath'] = 'Xpath for the Owl Slider items';
+$string['config:imagexpath'] = 'Xpath for the image (subitems)';
+$string['config:linkxpath'] = 'Xpath for the link (subitems)';
+$string['config:categoryxpath'] = 'Xpath for the category (subitems)';
+$string['config:datexpath'] = 'Xpath for the date (subitems)';
+$string['config:titlexpath'] = 'Xpath for the title (subitems)';
+$string['refreshnewstasks'] = 'News refresh';

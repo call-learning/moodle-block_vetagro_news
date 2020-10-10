@@ -26,6 +26,7 @@ defined('MOODLE_INTERNAL') || die();
 
 /**
  * Class block_vetagro_news
+ *
  * @package    block_vetagro_news
  * @copyright 2020 - CALL Learning - Laurent David <laurent@call-learning>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -42,13 +43,26 @@ class block_vetagro_news extends block_base {
     }
 
     /**
+     * Update the block title from config values
+     */
+    public function specialization() {
+        if (!empty($this->config->title)) {
+            $this->title = $this->config->title;
+        }
+    }
+
+    /**
      * Content for the block
      *
      * @return \stdClass|string|null
      * @throws coding_exception
      */
     public function get_content() {
+        global $CFG;
 
+        $this->page->requires->css(
+            new moodle_url('/blocks/vetagro_news/js/glide/dist/css/glide.core' .
+                (debugging() ? '.min' : '') . '.css'));
         if ($this->content !== null) {
             return $this->content;
         }
@@ -63,25 +77,16 @@ class block_vetagro_news extends block_base {
         $this->content->icons = array();
         $this->content->footer = '';
 
-        // User/index.php expect course context, so get one if page has module context.
-        $currentcontext = $this->page->context->get_course_context(false);
-
-        if (!empty($this->config->text)) {
-            $this->content->text = $this->config->text;
+        if ($this->config && !empty($this->config->articles)) {
+            $articles = $this->config->articles;
+            $renderer = $this->page->get_renderer('core');
+            $this->content->text = $renderer->render(
+                new \block_vetagro_news\output\news_article(
+                    $articles
+                ));
+        } else {
+            $this->content = '';
         }
-
-        $this->content = '';
-        if (empty($currentcontext)) {
-            return $this->content;
-        }
-        if ($this->page->course->id == SITEID) {
-            $this->context->text .= "site context";
-        }
-
-        if (!empty($this->config->text)) {
-            $this->content->text .= $this->config->text;
-        }
-
         return $this->content;
     }
 
@@ -109,19 +114,6 @@ class block_vetagro_news extends block_base {
      * @return bool
      */
     public function has_config() {
-        return true;
-    }
-
-    /**
-     * Cron Job
-     *
-     * @return bool
-     */
-    public function cron() {
-        mtrace("Hey, my cron script is running");
-
-        // Do something.
-
         return true;
     }
 }

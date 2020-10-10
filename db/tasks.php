@@ -15,11 +15,22 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Vetagro news block caps.
+ * Vetagronews block tasks
  *
- * @package    block_vetagro_news
+ * @package   block_vetagro_news
  * @copyright 2020 - CALL Learning - Laurent David <laurent@call-learning>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
+$tasks = [
+    [
+        'classname' => 'block_vetagro_news\tasks\refresh_vetagro_news',
+        'blocking' => 0,
+        'minute' => '5',
+        'hour' => '*',
+        'day' => '*',
+        'month' => '*',
+        'dayofweek' => '*',
+    ],
+];
