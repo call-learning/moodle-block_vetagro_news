@@ -21,8 +21,18 @@
 
     Example context (json):
     {
-    'articles' => ,
-    'count' => 1
+       "articles":[
+          {
+             "imageurl":"",
+             "linkurl":"",
+             "categories":[
+
+             ],
+             "date":"",
+             "title":""
+          }
+       ],
+       "count":1
     }
 }}
 
@@ -33,16 +43,15 @@
                 <ul class="glide__slides">
                     {{#articles}}
                         <li class="glide__slide">
-                            <a href="{{ linkurl }}" class="d-block position-relative">
-                                <img class="img-fluid w-100" src="{{ imageurl }}"/>
-                                <div class="slide-content position-absolute fixed-bottom">
-                                    <div class="categories font-italic d-none d-md-inline-block">
-                                        {{#categories}}
-                                            <span class="btn btn-primary">{{ text }}</span>
-                                        {{/categories}}
-                                    </div>
-                                    <div class="text-white text-truncate  d-none d-md-inline-block">{{ date }}</div>
-                                    <div class="font-weight-bolder text-white text-truncate  d-none d-md-inline-block">{{ title }}</div>
+                            <a href="{{ linkurl }}" class="d-block position-relative" style="background-image:url({{imageurl}});">
+                                <div class="categories font-italic d-none d-md-inline-block m-2">
+                                    {{#categories}}
+                                        <span class="btn btn-primary">{{ text }}</span>
+                                    {{/categories}}
+                                </div>
+                                <div class="slide-content position-absolute fixed-bottom d-block">
+                                    <div class="text-white text-truncate d-none d-md-block">{{#userdate}} {{date}}, {{#str}} strftimedate {{/str}} {{/userdate}}</div>
+                                    <div class="font-weight-bolder text-white text-truncate  d-none d-md-block">{{ title }}</div>
                                 </div>
                             </a>
                         </li>
@@ -54,14 +63,14 @@
 </div>
 
 {{#js}}
-    require(['block_vetagro_news/glide'],function(glide) {
-    glide('#block-vetagro-news-{{uniqid}} .glide', {
-    type: 'slider',
-    startAt: 0,
-    perView: 3,
-    gap: 20,
-    autoplay: 2000
-    }
+    require(['block_vetagro_news/glide'], function(glide) {
+        glide('#block-vetagro-news-{{uniqid}} .glide', {
+            type: 'carousel',
+            startAt: 0,
+            perView: 4,
+            gap: 20,
+            autoplay: 2000
+        }
     );
     });
 {{/js}}

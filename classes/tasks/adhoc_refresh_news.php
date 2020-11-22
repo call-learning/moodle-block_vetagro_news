@@ -31,46 +31,29 @@ use core_date;
 use DateTime;
 use DOMDocument;
 use DOMXPath;
-
 /**
- * Class refresh_vetagro_news
+ * Class adhoc_refresh_news
  *
  * @package block_vetagro_news
  * @copyright 2020 - CALL Learning - Laurent David <laurent@call-learning>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class refresh_vetagro_news extends \core\task\scheduled_task {
-
-    /**
-     * Block name
-     */
-    const BLOCK_NAME = 'vetagro_news';
-
-    /**
-     * Return the task's name as shown in admin screens.
-     *
-     * @return string
-     */
-    public function get_name() {
-        return get_string('refreshnewstasks', 'block_vetagro_news');
-    }
-
+class adhoc_refresh_news extends \core\task\adhoc_task {
     /**
      * Execute the task.
      */
     public function execute() {
         global $DB;
-        $blockinstancesrecord = $DB->get_records('block_instances', ['blockname' => self::BLOCK_NAME]);
-        foreach ($blockinstancesrecord as $blockrecord) {
-            $instance = block_instance($blockrecord->blockname, $blockrecord);
+        $data = $this->get_custom_data();
+        $blockinstance = $DB->get_record('block_instances', ['id' => $data->id]);
+        if ($blockinstance) {
+            $instance = block_instance($blockinstance->blockname, $blockinstance);
             try {
                 $feedmanager = new \block_vetagro_news\feed_manager($instance);
                 $feedmanager->refresh_block();
-                mtrace("Updating Vetagronews bloc: ". $instance->id);/**/
             } catch (\moodle_exception $e) {
-                mtrace("Issue when updating Vetagronews bloc: ".$e->getMessage());
+                debugging('Issue when updating Vetagronews block:'. $e->getMessage(), DEBUG_NORMAL);
             }
-
         }
     }
 }

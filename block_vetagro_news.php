@@ -58,8 +58,6 @@ class block_vetagro_news extends block_base {
      * @throws coding_exception
      */
     public function get_content() {
-        global $CFG;
-
         $this->page->requires->css(
             new moodle_url('/blocks/vetagro_news/js/glide/dist/css/glide.core' .
                 (debugging() ? '.min' : '') . '.css'));
@@ -106,6 +104,29 @@ class block_vetagro_news extends block_base {
      */
     public function instance_allow_multiple() {
         return true;
+    }
+
+    /**
+     * Serialize and store config data
+     *
+     * This will also immediately parse the data from the remote site.
+     *
+     * @param stdClass $data
+     * @param false $nolongerused
+     * @throws coding_exception
+     */
+    public function instance_config_save($data, $nolongerused = false) {
+        parent::instance_config_save($data);
+        if (!$nolongerused) {
+            // We use this field so not to create duplicate tasks.
+            $refresh = new \block_vetagro_news\tasks\adhoc_refresh_news();
+            $refresh->set_custom_data(array(
+                'id' => $this->instance->id
+            ));
+            \core\task\manager::queue_adhoc_task($refresh, true); // Very important here
+            // not to reschedule a new tasks as it will end up in infinite loop (the save routing is
+            // called in the adhoc_task).
+        }
     }
 
     /**

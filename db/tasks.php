@@ -27,7 +27,7 @@ $tasks = [
     [
         'classname' => 'block_vetagro_news\tasks\refresh_vetagro_news',
         'blocking' => 0,
-        'minute' => '5',
+        'minute' => '30',
         'hour' => '*',
         'day' => '*',
         'month' => '*',

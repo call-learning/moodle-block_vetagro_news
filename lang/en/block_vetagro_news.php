@@ -29,8 +29,8 @@ $string['title'] = 'Vetagro News';
 
 $string['config:title'] = 'Title';
 $string['config:pageurl'] = 'News page url (remote site)';
-$string['config:itemxpath'] = 'Xpath for the Owl Slider items';
-$string['config:imagexpath'] = 'Xpath for the image (subitems)';
+$string['config:itemxpath'] = 'Xpath for items';
+$string['config:imagexpath'] = 'Xpath for the image (in subdocument)';
 $string['config:linkxpath'] = 'Xpath for the link (subitems)';
 $string['config:categoryxpath'] = 'Xpath for the category (subitems)';
 $string['config:datexpath'] = 'Xpath for the date (subitems)';

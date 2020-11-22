@@ -23,8 +23,6 @@
  */
 
 namespace block_vetagro_news\output;
-global $CFG;
-
 defined('MOODLE_INTERNAL') || die();
 
 use renderable;
@@ -48,15 +46,20 @@ class news_article implements renderable, templatable {
      * featured_courses constructor.
      * Retrieve matchin courses
      *
-     * @param $coursesid
+     * @param array $articles
      * @throws \coding_exception
      * @throws \dml_exception
      */
     public function __construct($articles) {
-        global $DB;
         $this->articles = $articles;
     }
 
+    /**
+     * Export for template
+     *
+     * @param renderer_base $renderer
+     * @return array|\stdClass
+     */
     public function export_for_template(renderer_base $renderer) {
         $exportedvalue = [
             'articles' => array_values((array) $this->articles),

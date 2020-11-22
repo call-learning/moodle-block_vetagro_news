@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>VetAgro Sup</title>
+	<atom:link href="http://mysite.fr/feed/" rel="self" type="application/rss+xml" />
+	<link>http://mysite.fr</link>
+	<description>My description.....</description>
+	<lastBuildDate>Mon, 16 Nov 2020 07:03:06 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+
+
+<image>
+	<url>http://mysite.fr/wp-content/uploads/2019/02/cropped-Logo-VetAgroSup-original-LYON-32x32.jpg</url>
+	<title>VetAgro Sup</title>
+	<link>http://mysite.fr</link>
+	<width>32</width>
+	<height>32</height>
+</image>
+	<item>
+		<title>La santé globale, fil conducteur de la stratégie d’établissement</title>
+		<link>http://mysite.fr/la-sante-globale-fil-conducteur-de-la-strategie-detablissement/</link>
+
+		<dc:creator><![CDATA[creatorname]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2020 16:05:00 +0000</pubDate>
+				<category><![CDATA[One Health]]></category>
+		<guid isPermaLink="false">http://mysite.fr/?p=35622</guid>
+
+					<description><![CDATA[<p>« Global Health » ou « One Health », le concept de santé globale est plus que jamais en effervescence avec la pandémie mondiale à laquelle notre planète doit faire face. A travers cette approche pluridisciplinaire qui permet de rassembler santé humaine, animale et environnementale, l’objectif est ainsi de prévenir des problématiques émergentes et de répondre aux nouveaux enjeux&#8230;</p>
+<p>L’article <a rel="nofollow" href="http://mysite.fr/la-sante-globale-fil-conducteur-de-la-strategie-detablissement/">La santé globale, fil conducteur de la stratégie d’établissement</a> est apparu en premier sur <a rel="nofollow" href="http://mysite.fr">VetAgro Sup</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="35622" class="elementor elementor-35622" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-50f2ecf reptro-section-padding-default elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="50f2ecf" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a872f86 elementor-column elementor-col-100 elementor-top-column" data-id="a872f86" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-29c2746 elementor-widget elementor-widget-text-editor" data-id="29c2746" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong><em>« Global Health » ou « One Health », le concept de santé globale est plus que jamais en effervescence avec la pandémie mondiale à laquelle notre planète doit faire face. A travers cette approche pluridisciplinaire qui permet de rassembler santé humaine, animale et environnementale, l’objectif est ainsi de prévenir des problématiques émergentes et de répondre aux nouveaux enjeux du 21<sup>e</sup> siècle. Au cœur de sa stratégie d’établissement, VetAgro Sup mise sur une approche globale de la santé pour assurer ses activités de formation, de recherche et d’expertise.</em></strong></p></div>
+				</div>
+				</div>
+				<section class="elementor-element elementor-element-0fd73fd elementor-section-boxed elementor-section-height-default elementor-section-height-default reptro-section-padding-large elementor-section elementor-inner-section" data-id="0fd73fd" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-f67a088 elementor-column elementor-col-33 elementor-inner-column" data-id="f67a088" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-53135f3 elementor-widget elementor-widget-image" data-id="53135f3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="480" height="519" src="http://mysite.fr/wp-content/uploads/2020/11/DSC_0009-2-480x519.jpg" class="attachment-reptro-blog-small size-reptro-blog-small" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-cc11d91 elementor-column elementor-col-33 elementor-inner-column" data-id="cc11d91" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-0ac3ec3 elementor-widget elementor-widget-image" data-id="0ac3ec3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="480" height="519" src="http://mysite.fr/wp-content/uploads/2020/11/14224_196-480x519.jpg" class="attachment-reptro-blog-small size-reptro-blog-small" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-97ef6cf elementor-column elementor-col-33 elementor-inner-column" data-id="97ef6cf" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4544060 elementor-widget elementor-widget-image" data-id="4544060" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="480" height="519" src="http://mysite.fr/wp-content/uploads/2020/11/11250012-480x519.jpg" class="attachment-reptro-blog-small size-reptro-blog-small" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class="elementor-element elementor-element-9aca09d elementor-widget elementor-widget-spacer" data-id="9aca09d" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2714f95 elementor-widget elementor-widget-heading" data-id="2714f95" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">La formation</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c8a5e33 elementor-widget elementor-widget-text-editor" data-id="c8a5e33" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Au cours de leur formation les étudiants sont sensibilisés et formés au concept de santé globale à travers une journée commune agro-véto en 1<sup>ère</sup> année, des modules communs entre les étudiants 3<sup>e</sup> année agro et de 5<sup>e</sup> année veto, des modules dans la formation initiale des vétérinaires (zoonoses, antibiorésistance, sécurité sanitaire des aliments), un approfondissement dans la formation via l’option AEST – agriculture, environnement, santé, territoire… En plus de cela s’ajoute des masters co-accrédités favorisant une approche intégrée comme le Master Biologie intégrative et physiologie &#8211;<em> Recherche animale pré-clinique et clinique</em>, Cancer &#8211; <em>Biologie du Cancer &#8211;</em> <em>Innovations thérapeutiques en cancérologie –</em> <em>OMICS,</em> Sciences du médiatement &#8211; <em>Pharmacie Vétérinaire et le Master GLOQUAL (Global Quality in European Livestock Production).</em></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8e87b43 elementor-widget elementor-widget-heading" data-id="8e87b43" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">L’expertise</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8ec4822 elementor-widget elementor-widget-text-editor" data-id="8ec4822" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>VetAgro Sup conduit des activités de recherche fondamentale et appliquée en tissant des relations avec un grand nombre de partenaires extérieurs à travers : la chaire industrielle Idex en Santé Publique Vétérinaire, la participation au débat publique (rentrée anthropocène), le pôle d’expertise vétérinaire et agronomique « animaux sauvages » (EVAAS) une expertise scientifique collective multidisciplinaires en santé de la faune sauvage, le laboratoire des leptospires et analyses vétérinaires qui réalise des analyses dans le cadre du dépistage Covid-19. VetAgro Sup met également un point d’honneur à accompagner ses partenaires à l’international notamment en Angola (Veterinary and Agronomic International and Innovative Pedagogy Training &#8211; VAI2P Training), en Afrique de l’Ouest (OIE Veterinary Education Twinning avec l’Ecole Inter Etats des Sciences et Médecine Vétérinaires de Dakar), mais aussi avec sa participation au programme « Fellowship Scheme » de lutte contre la résistance aux antimicrobiens dans 24 pays à revenus faibles d’Afrique subsaharienne et d’Asie, financé par le Fleming funds en partenariat avec la Fondation Mérieux et les Hospices Civiles de Paris.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e659156 elementor-widget elementor-widget-heading" data-id="e659156" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">La recherche</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f0a7eb4 elementor-widget elementor-widget-text-editor" data-id="f0a7eb4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Grâce à une politique scientifique développée autour de 3 axes (Transitions Agro-Ecologiques des Systèmes agricoles et alimentaires, Qualité de Vie de l’Homme et de l’Animal, Maitrise des Risques Sanitaires), l’objectif est de construire, accompagner et valoriser la production de connaissances pour une approche globale de la santé. Plusieurs travaux de recherche présentent des approches diversifiées et complémentaires comme par exemple :</p><ul><li>La médecine comparée et translationelle via l’unité de recherche APCSe rassemblant médecins, vétérinaires et pharmaciens) </li><li>Les zoonoses (relations santé humaine/santé animale/santé des écosystèmes) avec l’unité de recherche EPIA </li><li>La pullulation de campagnols terrestres (santé des écosystèmes/santé des territoires/santé animale et humaine)</li></ul></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-61c588f elementor-widget elementor-widget-heading" data-id="61c588f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">L’ENSV-FVI</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b02dc4f elementor-widget elementor-widget-text-editor" data-id="b02dc4f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Ecole interne de VetAgro Sup, l’ENSV-FVI affirme son engament sur la thématique de santé globale en proposant :</p><ul><li>Des formations spécifiques : un diplôme d’établissement One Health, un cycle des hautes études en santé globale, un master international en santé publique vétérinaire, Residential courses, la formation E-Cerise (online &#8211; Continuing Education for VeteRInary Services), actions sur mesure, France vétérinaire international…</li><li>Des actions sur mesures comme par exemple le projet REMESA pour former des formateurs « lutte contre l’antibiorésistance »</li></ul></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1a50e7b elementor-widget elementor-widget-text-editor" data-id="1a50e7b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong><em>In fine, VetAgro Sup s’attache à être reconnu « Acteur de la santé globale » à l’échelle locale et internationale.</em></strong></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		<p>L’article <a rel="nofollow" href="http://mysite.fr/la-sante-globale-fil-conducteur-de-la-strategie-detablissement/">La santé globale, fil conducteur de la stratégie d’établissement</a> est apparu en premier sur <a rel="nofollow" href="http://mysite.fr">VetAgro Sup</a>.</p>
+]]></content:encoded>
+
+
+
+			</item>
+		<item>
+		<title>Covid-19 : Fonctionnement du centre hospitalier universitaire vétérinaire</title>
+		<link>http://mysite.fr/covid-19-fonctionnement-de-vetagro-sup/</link>
+
+		<dc:creator><![CDATA[creatorname]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2020 15:22:27 +0000</pubDate>
+				<category><![CDATA[Covid-19]]></category>
+		<category><![CDATA[Vie sur le campus]]></category>
+		<guid isPermaLink="false">http://mysite.fr/?p=34065</guid>
+
+					<description><![CDATA[<p>Suite à l’allocution du Président de la République du 28/10 relative à la crise sanitaire, VetAgro Sup a mis en place une organisation spécifique en application des consignes du ministère de l&#8217;agriculture et de l&#8217;alimentation. Le centre hospitalier universitaire vétérinaire de VetAgro Sup reste ouvert durant la période de confinement. Les cliniques pour animaux de&#8230;</p>
+<p>L’article <a rel="nofollow" href="http://mysite.fr/covid-19-fonctionnement-de-vetagro-sup/">Covid-19 : Fonctionnement du centre hospitalier universitaire vétérinaire</a> est apparu en premier sur <a rel="nofollow" href="http://mysite.fr">VetAgro Sup</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="34065" class="elementor elementor-34065" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-61984f45 reptro-section-padding-default elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="61984f45" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4616ca98 elementor-column elementor-col-100 elementor-top-column" data-id="4616ca98" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-cce7c1d elementor-widget elementor-widget-text-editor" data-id="cce7c1d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:paragraph --></p>
+<p><strong>Suite à l’allocution du Président de la République du 28/10 relative à la crise sanitaire, VetAgro Sup a mis en place une organisation spécifique en application des consignes du ministère de l&rsquo;agriculture et de l&rsquo;alimentation.</strong></p>
+<p><!-- /wp:paragraph --></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c13bf51 elementor-widget elementor-widget-text-editor" data-id="c13bf51" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="color: #c53168;"><strong>Le centre hospitalier universitaire vétérinaire de VetAgro Sup reste ouvert durant la période de confinement.</strong></span></p>
+<p>Les cliniques pour animaux de compagnie et équidés accueillent les animaux et leur propriétaire<strong> sur rendez-vous uniquement,</strong> retrouvez ci-dessous les numéros d&rsquo;appel et les consignes à suivre lors de votre venue.</p>
+<p> </p>
+<p><strong>Pour venir au CHUV, une <span style="color: #c53168;">confirmation de rendez-vous</span> vous sera transmise, à joindre à votre attestation dérogatoire de déplacement.</strong></p>
+<p><strong><a href="https://www.gouvernement.fr/info-coronavirus/ressources-a-partager">&gt; Télécharger ici l&rsquo;attestation de déplacement dérogatoire pour emmener votre animal aux urgences</a> </strong> en indiquant le motif <em>« Déplacements pour des consultations et soins ne pouvant être assurés à distance et ne pouvant être différés ou pour l’achat de produits de santé ».</em></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-390ac85 elementor-widget elementor-widget-text-editor" data-id="390ac85" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h2>Clinique des animaux de compagnie</h2>
+<p> </p>
+<h3>&gt; Consultations clinique</h3>
+<p><strong> </strong></p>
+<h4>Afin de pouvoir vous accueillir dans les meilleures conditions possibles, merci de respecter les mesures suivantes :</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c1dbff0 elementor-widget elementor-widget-text-editor" data-id="c1dbff0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><h2> </h2>
+<h2>Clinique des animaux de production</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		<p>L’article <a rel="nofollow" href="http://mysite.fr/covid-19-fonctionnement-de-vetagro-sup/">Covid-19 : Fonctionnement du centre hospitalier universitaire vétérinaire</a> est apparu en premier sur <a rel="nofollow" href="http://mysite.fr">VetAgro Sup</a>.</p>
+]]></content:encoded>
+
+
+		<enclosure url="http://mysite.fr/wp-content/uploads/2020/03/gestes_barrieres_coronavirus.mp4" length="9738933" type="video/mp4" />
+
+			</item>
+		<item>
+		<title>Les chiffres clés de la rentrée 2020 de VetAgro Sup</title>
+		<link>http://mysite.fr/les-chiffres-cles-de-la-rentree-2020-de-vetagro-sup/</link>
+
+		<dc:creator><![CDATA[creatorname]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2020 14:10:42 +0000</pubDate>
+				<category><![CDATA[Etudiants]]></category>
+		<category><![CDATA[Formations]]></category>
+		<guid isPermaLink="false">http://mysite.fr/?p=35506</guid>
+
+					<description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>L’article <a rel="nofollow" href="http://mysite.fr/les-chiffres-cles-de-la-rentree-2020-de-vetagro-sup/">Les chiffres clés de la rentrée 2020 de VetAgro Sup</a> est apparu en premier sur <a rel="nofollow" href="http://mysite.fr">VetAgro Sup</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="35506" class="elementor elementor-35506" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-ac2059a reptro-section-padding-default elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ac2059a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-5f97c44 elementor-column elementor-col-100 elementor-top-column" data-id="5f97c44" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-9bd969f elementor-widget elementor-widget-text-editor" data-id="9bd969f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</em></strong></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a3d00f8 elementor-widget elementor-widget-heading" data-id="a3d00f8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Lorem ipsum ipsum</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3edb15c elementor-widget elementor-widget-image" data-id="3edb15c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="640" height="315" src="http://mysite.fr/wp-content/uploads/2020/10/Rentree-VETO-2020-1024x504.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="http://mysite.fr/wp-content/uploads/2020/10/Rentree-VETO-2020-1024x504.jpg 1024w, http://mysite.fr/wp-content/uploads/2020/10/Rentree-VETO-2020-300x148.jpg 300w, http://mysite.fr/wp-content/uploads/2020/10/Rentree-VETO-2020-768x378.jpg 768w, http://mysite.fr/wp-content/uploads/2020/10/Rentree-VETO-2020-1536x756.jpg 1536w, http://mysite.fr/wp-content/uploads/2020/10/Rentree-VETO-2020-2048x1008.jpg 2048w" sizes="(max-width: 640px) 100vw, 640px" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-fe8e4a6 elementor-widget elementor-widget-text-editor" data-id="fe8e4a6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><ul><li><strong>778  :</strong><ul><li>1<sup>ère</sup> année : 164</li><li>2<sup>e</sup> année : 164</li><li>3<sup>e</sup> année : 165</li><li>4<sup>e</sup> année : 141</li><li>5<sup>e</sup> année : 144</li></ul></li><li><strong>9 étudiants internationaux :</strong> 1 d’Allemagne, 5 d’Espagne, 1 d’Italie et 2 de Roumanie</li></ul></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9042f52 elementor-widget elementor-widget-text-editor" data-id="9042f52" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><blockquote><p><span style="color: #333399;"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p></blockquote></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d157958 elementor-widget elementor-widget-heading" data-id="d157958" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Le cursus Inspecteur de Santé Publique Vétérinaire </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f0ac37c elementor-widget elementor-widget-image" data-id="f0ac37c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="640" height="427" src="http://mysite.fr/wp-content/uploads/2020/10/Rentree-ENSV-FVI-2020-1024x683.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="http://mysite.fr/wp-content/uploads/2020/10/Rentree-ENSV-FVI-2020-1024x683.jpg 1024w, http://mysite.fr/wp-content/uploads/2020/10/Rentree-ENSV-FVI-2020-300x200.jpg 300w, http://mysite.fr/wp-content/uploads/2020/10/Rentree-ENSV-FVI-2020-768x512.jpg 768w, http://mysite.fr/wp-content/uploads/2020/10/Rentree-ENSV-FVI-2020-1536x1024.jpg 1536w, http://mysite.fr/wp-content/uploads/2020/10/Rentree-ENSV-FVI-2020-2048x1365.jpg 2048w" sizes="(max-width: 640px) 100vw, 640px" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2b7e15a elementor-widget elementor-widget-text-editor" data-id="2b7e15a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><ul><li><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</li></ul></li></ul></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ee1d933 elementor-widget elementor-widget-text-editor" data-id="ee1d933" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><blockquote><p><span style="color: #333399;"><em>« La rentrée s&rsquo;est en effet déroulée sous le signe de la distanciation et du port du masque dans les locaux. Du fait de ces contraintes sanitaires, il n&rsquo;est pas aisé de faire connaissance avec les autres personnes de la promotion. La convivialité n&rsquo;est pas forcément au rendez-vous. Beaucoup d&rsquo;échanges d&rsquo;information se fait en dématérialisé (groupe WhatsApp par exemple). L&rsquo;organisation des manifestations festives habituellement prévues en début d&rsquo;année par les Inspecteurs élèves de 2e année pour échanger et apprendre à se connaître (restaurant à Lyon, visite de la ville, pique-nique ou barbecue&#8230;) a été fortement contrariée. » <br /></em></span></p><p><span style="color: #333399;"><strong>Laure Mathews-Martin, ISPV stagiaire<br /></strong></span></p></blockquote></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c11bce8 elementor-widget elementor-widget-text-editor" data-id="c11bce8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><blockquote><p><span style="color: #333399;"><em>« J&rsquo;ai surtout pris un grand plaisir à revoir mes camarades de promotion et découvrir de nouveaux futurs collègues. Je pense qu&rsquo;après la période de confinement que nous avons vécue, nous avons tous éprouvé un soulagement à l&rsquo;idée de pouvoir tisser à nouveau des liens sociaux au sein du campus universitaire. » </em><strong><br /></strong></span></p><p><span style="color: #333399;"><strong>Valentin Renault, ISPV élève en 2e année<br /></strong></span></p></blockquote></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4481a40 elementor-widget elementor-widget-heading" data-id="4481a40" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Le cursus Ingénieur agronome</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-acfea7c elementor-widget elementor-widget-image" data-id="acfea7c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="640" height="453" src="http://mysite.fr/wp-content/uploads/2020/10/Rentree-ING-2020-20221-1024x725.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="http://mysite.fr/wp-content/uploads/2020/10/Rentree-ING-2020-20221-1024x725.jpg 1024w, http://mysite.fr/wp-content/uploads/2020/10/Rentree-ING-2020-20221-300x212.jpg 300w, http://mysite.fr/wp-content/uploads/2020/10/Rentree-ING-2020-20221-768x543.jpg 768w, http://mysite.fr/wp-content/uploads/2020/10/Rentree-ING-2020-20221-1536x1087.jpg 1536w, http://mysite.fr/wp-content/uploads/2020/10/Rentree-ING-2020-20221-2048x1449.jpg 2048w" sizes="(max-width: 640px) 100vw, 640px" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-fffb847 elementor-widget elementor-widget-text-editor" data-id="fffb847" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><ul><li><strong>369 étudiants :</strong><ul><li>124 en 1<sup>ère</sup> année (104 étudiants + 20 apprentis)</li><li>117 en 2<sup>e</sup> année (101 étudiants + 16 apprentis)</li><li>128 en 3<sup>e</sup> année (102 étudiants + 15 apprentis + 11 contrat de professionnalisation)</li></ul></li><li><strong>7 étudiants internationaux :</strong> 1 du Bénin, 3 du Brésil, 1 d’Italie et 2 du Liban</li></ul></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-61396b9 elementor-widget elementor-widget-text-editor" data-id="61396b9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><blockquote><p><span style="color: #333399;"><em>« La rentrée s’est bien passée, l’adaptation aux règles sanitaires s’est relativement bien faite. Cependant il est plus difficile de faire connaissance et d’arriver à créer des liens avec les gens en ne voyant qu’une partie de leur visage et en gardant nos distances. Nous avons bien été accueillis, les clubs et les associations ont réussi à nous intégrer malgré le contexte. Je me sens intégrée et bien adaptée à l’école, les distanciations sont physiques mais pas sociales ! </em></span><span style="color: #333399;"><em><span style="color: #333399;"><em>»</em><em> <strong><br /></strong></em></span></em></span></p><p><span style="color: #333399;"><em><span style="color: #333399;"><em><strong>Amélie</strong></em></span></em><strong> Navarro, étudiante ingénieure en </strong></span><span style="color: #333399;"><strong><span style="color: #333399;"><strong>1<sup>ère </sup></strong></span>année<br /></strong></span></p></blockquote></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		<p>L’article <a rel="nofollow" href="http://mysite.fr/les-chiffres-cles-de-la-rentree-2020-de-vetagro-sup/">Les chiffres clés de la rentrée 2020 de VetAgro Sup</a> est apparu en premier sur <a rel="nofollow" href="http://mysite.fr">VetAgro Sup</a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
