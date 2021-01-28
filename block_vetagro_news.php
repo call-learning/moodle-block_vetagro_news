@@ -22,6 +22,8 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+use block_vetagro_news\output\news_article;
+
 defined('MOODLE_INTERNAL') || die();
 
 /**
@@ -79,8 +81,9 @@ class block_vetagro_news extends block_base {
             $articles = $this->config->articles;
             $renderer = $this->page->get_renderer('core');
             $this->content->text = $renderer->render(
-                new \block_vetagro_news\output\news_article(
-                    $articles
+                new news_article(
+                    $articles,
+                    $this->config
                 ));
         } else {
             $this->content = '';

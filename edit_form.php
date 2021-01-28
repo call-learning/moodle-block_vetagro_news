@@ -23,6 +23,7 @@
  */
 
 use block_vetagro_news\feed_manager;
+use block_vetagro_news\output\news_article;
 
 /**
  * Class block_vetagro_news_edit_form
@@ -76,5 +77,9 @@ class block_vetagro_news_edit_form extends block_edit_form {
         $mform->addElement('text', 'config_titlexpath', get_string('config:titlexpath', 'block_vetagro_news'));
         $mform->setDefault('config_titlexpath', feed_manager::DEFAULT_VALUES['titlexpath']);
         $mform->setType('config_titlexpath', PARAM_RAW);
+
+        $mform->addElement('text', 'config_scrolltimer', get_string('config:scrolltimer', 'block_vetagro_news'));
+        $mform->setDefault('config_scrolltimer', news_article::DEFAULT_SCROLL_SPEED);
+        $mform->setType('config_scrolltimer', PARAM_INT);
     }
 }

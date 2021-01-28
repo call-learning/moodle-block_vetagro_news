@@ -37,21 +37,34 @@ use templatable;
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class news_article implements renderable, templatable {
+
+    /**
+     * Default scroll speed for the carousel.
+     */
+    const DEFAULT_SCROLL_SPEED = 4000;
+
     /**
      * @var array articles
      */
     public $articles = [];
 
     /**
+     * @var object|null $blockconfig block config
+     */
+    public $blockconfig = null;
+
+    /**
      * featured_courses constructor.
      * Retrieve matchin courses
      *
      * @param array $articles
+     * @param object $blockconfig block configuration
      * @throws \coding_exception
      * @throws \dml_exception
      */
-    public function __construct($articles) {
+    public function __construct($articles, $blockconfig) {
         $this->articles = $articles;
+        $this->blockconfig = $blockconfig;
     }
 
     /**
@@ -63,7 +76,9 @@ class news_article implements renderable, templatable {
     public function export_for_template(renderer_base $renderer) {
         $exportedvalue = [
             'articles' => array_values((array) $this->articles),
-            'count' => count($this->articles)
+            'count' => count($this->articles),
+            'scrolltimer' => (empty($this->blockconfig) || empty($this->blockconfig->scrolltimer)) ?
+                self::DEFAULT_SCROLL_SPEED : $this->blockconfig->scrolltimer
         ];
         return $exportedvalue;
     }

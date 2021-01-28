@@ -62,14 +62,30 @@
     </div>
 </div>
 
+
 {{#js}}
     require(['block_vetagro_news/glide'], function(glide) {
         glide('#block-vetagro-news-{{uniqid}} .glide', {
             type: 'carousel',
             startAt: 0,
             perView: 4,
-            gap: 20,
-            autoplay: 2000
+            // xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px
+            breakpoints : {
+                576: {
+                    perView: 1,
+                },
+                768: {
+                    perView: 2,
+                },
+                992: {
+                    perView: 4,
+                },
+                1200: {
+                    perView: 5,
+                },
+            },
+            gap: 40,
+            autoplay: {{ scrolltimer }}
         }
     );
     });

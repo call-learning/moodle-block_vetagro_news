@@ -143,50 +143,13 @@ class block_vetagro_news_test extends advanced_testcase {
         $block->instance_config_save($block->config);
         $content = $block->get_content();
         $this->assertNotNull($content->text);
-
-        $expected = '<div class="block-vetagro-news block-cards">
-    <div class="container-fluid">
-        <div class="glide d-none">
-            <div class="glide__track" data-glide-el="track">
-                <ul class="glide__slides">
-                        <li class="glide__slide">
-                            <a href="http://mysite.fr/la-sante-globale-fil-conducteur-de-la-strategie-detablissement/"'
-            .' class="d-block position-relative">
-                                <img class="img-fluid w-100"'
-            .' src="http://mysite.fr/wp-content/uploads/2020/11/DSC_0009-2-480x519.jpg"/>
-                                <div class="slide-content position-absolute fixed-bottom">
-                                    <div class="categories font-italic d-none d-md-inline-block">
-                                            <span class="btn btn-primary">One Health</span>
-                                    </div>
-                                    <div class="text-white text-truncate  d-none d-md-inline-block">4 November 2020</div>
-                                    <div class="font-weight-bolder text-white text-truncate  d-none d-md-inline-block">'
-            .'La santé globale, fil conducteur de la stratégie d’établissement</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="glide__slide">
-                            <a href="http://mysite.fr/les-chiffres-cles-de-la-rentree-2020-de-vetagro-sup/" '
-            .'class="d-block position-relative">
-                                <img class="img-fluid w-100" '
-            .'src="http://mysite.fr/wp-content/uploads/2020/10/Rentree-VETO-2020-1024x504.jpg"/>
-                                <div class="slide-content position-absolute fixed-bottom">
-                                    <div class="categories font-italic d-none d-md-inline-block">
-                                            <span class="btn btn-primary">Etudiants</span>
-                                            <span class="btn btn-primary">Formations</span>
-                                    </div>
-                                    <div class="text-white text-truncate  d-none d-md-inline-block">19 October 2020</div>
-                                    <div class="font-weight-bolder text-white text-truncate  d-none d-md-inline-block">'
-            .'Les chiffres clés de la rentrée 2020 de VetAgro Sup</div>
-                                </div>
-                            </a>
-                        </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>';
-        $text = preg_replace('/ id="block-vetagro-news([^"]+)"/i', '', $content->text);
-        $this->assertEquals($expected, $text);
+        $text = $content->text;
+        $this->assertContains('http://mysite.fr/la-sante-globale-fil-conducteur-de-la-strategie-detablissement/', $text);
+        $this->assertContains('http://mysite.fr/wp-content/uploads/2020/11/DSC_0009-2-480x519.jpg', $text);
+        $this->assertContains('http://mysite.fr/les-chiffres-cles-de-la-rentree-2020-de-vetagro-sup/', $text);
+        $this->assertContains('http://mysite.fr/wp-content/uploads/2020/10/Rentree-VETO-2020-1024x504.jpg', $text);
+        $this->assertContains('La santé globale, fil conducteur de la stratégie d’établissement', $text);
+        $this->assertContains('Les chiffres clés de la rentrée 2020 de VetAgro Sup', $text);
     }
 }
 
