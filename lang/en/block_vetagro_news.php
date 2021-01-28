@@ -35,4 +35,5 @@ $string['config:linkxpath'] = 'Xpath for the link (subitems)';
 $string['config:categoryxpath'] = 'Xpath for the category (subitems)';
 $string['config:datexpath'] = 'Xpath for the date (subitems)';
 $string['config:titlexpath'] = 'Xpath for the title (subitems)';
+$string['config:scrolltimer'] = 'Caroussel\'s speed';
 $string['refreshnewstasks'] = 'News refresh';
